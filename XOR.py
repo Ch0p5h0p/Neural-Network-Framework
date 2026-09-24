@@ -11,7 +11,7 @@ effectively the network is trained, the closer the decimal value will be to
 the desired output.
 
 Poorly trained : XOR 1, 1 -> 0.44, XOR 1, 0 -> 0.51
-Well trained   : XOR 1, 1 -> 0.15, XOR 1, 9 -> 0.89
+Well trained   : XOR 1, 1 -> 0.15, XOR 1, 0 -> 0.89
 (The output values above are random values. Getting a 0.44 or worse on one 
 iteration may mean bad luck. Getting a 0.44 or worse on multiple means 
 bad training)
